@@ -45,7 +45,7 @@
 
 ## Cursor `assets/` 드롭 — A / B / C 시리즈 (2026-05-21)
 
-소스: `~/.cursor/projects/Users-martin-Projects-biwon-global-web/assets/` 의 `________A*.png`, `________B*.png`, `________C*.png` (파일명 끝 UUID는 생략).
+소스: `~/.cursor/projects/Users-martin-Projects-Beone-global-web/assets/` 의 `________A*.png`, `________B*.png`, `________C*.png` (파일명 끝 UUID는 생략).
 
 | 소스 | `public/` 경로 | 비고 |
 |------|------------------|------|

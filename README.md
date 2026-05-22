@@ -17,7 +17,7 @@
 ## 실행
 
 ```bash
-cd /Users/martin/Projects/biwon-global-web
+cd /Users/martin/Projects/Beone-global-web
 npm install   # 이미 했다면 생략
 npm run dev
 ```

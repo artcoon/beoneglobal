@@ -2,7 +2,7 @@
 
 ## 에디토리얼·럭셔리 목업 (`public/assets/editorial/`)
 
-- **소스**: `~/.cursor/projects/Users-martin-Projects-biwon-global-web/assets/` 에서만 동기화합니다. 스크립트: `python3 scripts/sync_editorial_from_cursor_assets.py`
+- **소스**: `~/.cursor/projects/Users-martin-Projects-Beone-global-web/assets/` 에서만 동기화합니다. 스크립트: `python3 scripts/sync_editorial_from_cursor_assets.py`
 - **포함**: `Beone_Global_Brand_Guideline_Final_20260225_Page_*.png` 전부(페이지 번호 순), 파일 크기 **≥ 100 000 bytes** 인 `design-element-*.png` 만(대형 목업).
 - **제외**: `Screenshot_*`, 100 000 bytes 미만의 작은 `design-element-*`(칩·아이콘), IR/PPT 슬라이드 스크린샷.
 - **파일 명명**:
