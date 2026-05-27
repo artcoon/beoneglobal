@@ -1031,7 +1031,16 @@ function App() {
             <div className="product-grid card-grid--products">
               {site.products.featured.map((p) => (
                 <article key={p.shopHref} className="product-card">
-                  <div className="product-card__media">
+                  <div
+                    className="product-card__media"
+                    style={
+                      'imageDisplayScale' in p && typeof p.imageDisplayScale === 'number'
+                        ? ({
+                            ['--product-image-display-scale' as string]: String(p.imageDisplayScale),
+                          } as CSSProperties)
+                        : undefined
+                    }
+                  >
                     <img
                       src={p.image}
                       alt={p.name}
