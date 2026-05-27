@@ -539,7 +539,7 @@ export const site = {
       {
         name: '근육관절핫패치',
         goodsNo: '1000000021',
-        image: '/assets/products/goods-1000000021.jpg',
+        image: '/assets/products/goods-1000000021.png',
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000021',
         blurb:
           '온열 컨디셔닝(HOT) 전용 라인으로, 이중 온열·비타민·허브 등 복합 설계가 B2B 자료에 기술되어 있습니다. 열감은 성분 특성에 따른 체감이며, 의학적 효능은 표방하지 않습니다.',
@@ -555,7 +555,7 @@ export const site = {
       {
         name: '굿나잇패치',
         goodsNo: '1000000019',
-        image: '/assets/products/goods-1000000019.jpg',
+        image: '/assets/products/goods-1000000019.png',
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000019',
         blurb:
           '야간·수면 시간대 착용을 전제로 멘톨·카페인 ZERO, 아이브라이트·페퍼민트 마일드 쿨링 등이 교육용 자료에 정리된 화장품 패치입니다.',
@@ -563,7 +563,7 @@ export const site = {
       {
         name: '다기억패치',
         goodsNo: '1000000018',
-        image: '/assets/products/goods-1000000018.jpg',
+        image: '/assets/products/goods-1000000018.png',
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000018',
         blurb:
           '빌베리·안토시아닌·NO·쿨링 등을 조합한 플래그십 라인으로 B2B·교육 자료에 소개됩니다. 치매·인지 질환 치료 표현은 자료에서 배제합니다.',
@@ -571,7 +571,7 @@ export const site = {
       {
         name: '쏘팔메토패치',
         goodsNo: '1000000012',
-        image: '/assets/products/goods-1000000012.jpg',
+        image: '/assets/products/goods-1000000012.png',
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000012',
         blurb:
           '쏘팔메토·네틀오일 등 허브 웰니스 컨디셔닝을 지향하는 화장품 패치로 B2B 자료에 정리되어 있습니다. 질병 치료·건강기능식품 표현은 표방하지 않습니다.',
@@ -579,7 +579,7 @@ export const site = {
       {
         name: '에너이자패치',
         goodsNo: '1000000013',
-        image: '/assets/products/goods-1000000013.jpg',
+        image: '/assets/products/goods-1000000013.png',
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000013',
         blurb:
           '훼뉴그릭(호로파)·넷틀(쐐기풀)·NO·멘톨 등 활력 허브 컨디셔닝을 지향하는 화장품 패치로 B2B 자료에 기술되어 있습니다.',
