@@ -513,7 +513,7 @@ export const site = {
       {
         name: '미라클패치',
         goodsNo: '1000000011',
-        image: '/assets/products/goods-1000000011.jpg',
+        image: '/assets/products/goods-1000000011.png',
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000011',
         blurb:
           'B2B 자료 기준 올라운더형 화장품 패치(산화질소·멘톨·아로마·한방·미네랄 등 복합 설계). 질병 치료 표현 없이 피부 컨디셔닝 목적임을 자료가 명시합니다.',
