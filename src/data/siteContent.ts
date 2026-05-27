@@ -530,7 +530,7 @@ export const site = {
       },
       {
         name: '근육관절패치 (쿨링)',
-        image: '/assets/products/goods-1000000021.png',
+        image: '/assets/products/goods-muscle-joint-cooling-reliefflex.png',
         shopHref:
           'https://www.kbeone.co.kr/goods/goods_list.php?cateCd=004&from=beone-site#muscle-joint-cool',
         blurb:
