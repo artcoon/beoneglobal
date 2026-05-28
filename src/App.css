@@ -606,10 +606,10 @@
 
 .hero__lockup {
   display: block;
-  width: min(140px, 44vw);
+  width: min(420px, 132vw);
   height: auto;
   margin: 0 0 0.55rem;
-  aspect-ratio: 1024 / 370;
+  aspect-ratio: 3000 / 1987;
   object-fit: contain;
   object-position: left top;
 }
