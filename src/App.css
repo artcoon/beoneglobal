@@ -63,14 +63,14 @@
   align-items: center;
   gap: 0;
   min-width: 0;
-  max-width: min(11.5rem, 42vw);
+  max-width: min(34.5rem, 90vw);
   text-decoration: none;
   color: inherit;
 }
 
 .logo__img {
   display: block;
-  height: clamp(2rem, 4.2vw, 2.45rem);
+  height: clamp(6rem, 12.6vw, 7.35rem);
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -378,11 +378,11 @@
   }
 
   .logo {
-    max-width: min(230px, 32vw);
+    max-width: min(690px, 96vw);
   }
 
   .logo__img {
-    height: clamp(2.13rem, 3.68vw, 2.59rem);
+    height: clamp(6.39rem, 11.04vw, 7.77rem);
   }
 
   .nav--desktop {
