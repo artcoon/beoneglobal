@@ -11,7 +11,7 @@ export const site = {
   brand: {
     sloganEn: 'Co-Creating Value as One',
     logoNav: '/assets/brand/logo-nav.png',
-    logoLockup: '/assets/brand/Beone_Global_Web_Logo_01.png?v=4',
+    logoLockup: '/assets/brand/logo-lockup.png',
     logoFooter: '/assets/brand/logo-lockup.png',
   },
 
