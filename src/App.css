@@ -1465,8 +1465,8 @@
 }
 
 /**
- * #contact: dark herringbone weave tile (`/images/contact-pattern.png`, 186×272) — office cards stay `--surface`.
- * Bitmap only (no CSS carbon-weave stack here). Subtle scrim for legible shell ink.
+ * #contact: carbon-weave tile (`/images/contact-pattern.png`, 225×225) — same repeat cell as `#history`.
+ * Office cards stay `--surface`. Subtle scrim for legible shell ink.
  */
 #contact.section--contact {
   --contact-section-bg: #121414;
@@ -1478,7 +1478,7 @@
   background-color: var(--contact-section-bg);
   background-image: url('/images/contact-pattern.png');
   background-repeat: repeat;
-  background-size: 180px auto;
+  background-size: 225px 225px;
 }
 
 #contact.section--contact::before {
