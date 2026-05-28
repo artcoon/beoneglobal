@@ -606,7 +606,7 @@
 
 .hero__lockup {
   display: block;
-  width: min(420px, 132vw);
+  width: min(210px, 66vw);
   height: auto;
   margin: 0 0 0.55rem;
   aspect-ratio: 3000 / 1987;
