@@ -63,7 +63,7 @@
   align-items: center;
   gap: 0;
   min-width: 0;
-  max-width: min(253px, 38vw);
+  max-width: min(11.5rem, 42vw);
   text-decoration: none;
   color: inherit;
 }
@@ -606,9 +606,11 @@
 
 .hero__lockup {
   display: block;
-  width: min(280px, 88vw);
+  width: min(100%, 28rem);
+  max-width: 100%;
   height: auto;
   margin: 0 0 0.55rem;
+  aspect-ratio: 1024 / 370;
   object-fit: contain;
   object-position: left top;
 }

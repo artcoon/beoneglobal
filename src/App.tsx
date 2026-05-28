@@ -674,8 +674,8 @@ function App() {
             className="logo__img"
             src={site.brand.logoNav}
             alt={`${site.nameKo} (${site.nameEn})`}
-            width={253}
-            height={51}
+            width={1024}
+            height={370}
             decoding="async"
           />
         </a>
@@ -738,12 +738,12 @@ function App() {
               <img
                 className="hero__lockup"
                 src={site.brand.logoLockup}
-                alt=""
-                width={3000}
-                height={1987}
+                alt={`${site.nameEn} — ${site.brand.sloganEn}`}
+                width={1024}
+                height={370}
                 decoding="async"
               />
-              <p className="hero__slogan" lang="en">
+              <p className="hero__slogan visually-hidden" lang="en">
                 {site.brand.sloganEn}
               </p>
               <p className="hero__eyebrow">{site.nameEn}</p>
