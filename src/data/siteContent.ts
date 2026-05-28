@@ -457,6 +457,8 @@ export const site = {
           videoId: 'dZ9tAkl5hug',
           titleKo: '글로비 & 누비 모션 C',
           label: '모션 C',
+          /** YouTube hqdefault has baked-in letterbox bars; use cropped local 16:9 thumb */
+          thumb: '/assets/brand/globi-nubi-motion-c-thumb.jpg',
         },
         {
           videoId: 'Vv_PGY8xtdg',

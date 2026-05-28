@@ -470,7 +470,11 @@ function BrandGlobiNubiAnimationRow() {
             <div className="brand-ip-anim__media">
               <img
                 className="brand-ip-anim__thumb"
-                src={`https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`}
+                src={
+                  'thumb' in v && v.thumb
+                    ? v.thumb
+                    : `https://i.ytimg.com/vi/${v.videoId}/hqdefault.jpg`
+                }
                 alt=""
                 width={480}
                 height={360}
