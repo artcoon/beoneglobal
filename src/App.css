@@ -1408,7 +1408,7 @@
 }
 
 /**
- * #history: dark grey-green shell (다크회색그린) + woven texture tile (`/images/history-pattern.png`, 1024×770).
+ * #history: dark grey-green shell (다크회색그린) + carbon-weave tile (`/images/history-pattern.png`, 225×225).
  * `repeat` at intrinsic tile size; `::before` scrim keeps timeline labels and white cards readable.
  * Shell tokens: `--section-dark-shell-*` in `index.css`.
  */
@@ -1420,7 +1420,7 @@
   background-color: var(--section-dark-shell-bg);
   background-image: url('/images/history-pattern.png');
   background-repeat: repeat;
-  background-size: 1024px 770px;
+  background-size: 225px 225px;
 }
 
 #history.section--history::before {

@@ -4,4 +4,4 @@ Drop your dark background image as **`global-section-bg.png`** in this folder (`
 
 `contact-pattern.png` — herringbone tile for `#contact` (`src/App.css`, `background-size` / `repeat` there).
 
-`history-pattern.png` — dark woven texture **repeat tile** for `#history` (1024×770; `src/App.css` → `background-repeat: repeat`, `background-size: 1024px 770px`).
+`history-pattern.png` — carbon-weave **repeat tile** for `#history` (225×225; `src/App.css` → `background-repeat: repeat`, `background-size: 225px 225px`).
