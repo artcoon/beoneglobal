@@ -743,10 +743,6 @@ function App() {
                 height={370}
                 decoding="async"
               />
-              <p className="hero__slogan" lang="en">
-                {site.brand.sloganEn}
-              </p>
-              <p className="hero__eyebrow">{site.nameEn}</p>
               <h1 id="hero-title" className="hero__title">
                 {site.nameKo}
               </h1>
