@@ -453,6 +453,16 @@ export const site = {
           titleKo: '글로비 & 누비 코러스 B',
           label: '코러스 B',
         },
+        {
+          videoId: 'dZ9tAkl5hug',
+          titleKo: '글로비 & 누비 모션 C',
+          label: '모션 C',
+        },
+        {
+          videoId: 'Vv_PGY8xtdg',
+          titleKo: '글로비 & 누비 모션 D',
+          label: '모션 D',
+        },
       ],
     },
     characters: [
