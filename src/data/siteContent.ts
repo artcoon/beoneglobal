@@ -591,7 +591,6 @@ export const site = {
         name: '에너이자패치',
         goodsNo: '1000000013',
         image: '/assets/products/goods-1000000013.png',
-        imageDisplayScale: 0.6,
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000013',
         blurb:
           '훼뉴그릭(호로파)·넷틀(쐐기풀)·NO·멘톨 등 활력 허브 컨디셔닝을 지향하는 화장품 패치로 B2B 자료에 기술되어 있습니다.',
