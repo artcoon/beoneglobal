@@ -2385,6 +2385,8 @@
 }
 
 .card-grid--brand .card--brand {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   overflow: hidden;
   background: linear-gradient(165deg, #fff 0%, var(--surface-2) 100%);
@@ -2392,6 +2394,8 @@
 
 .card--brand__layout {
   display: flex;
+  flex: 1;
+  width: 100%;
   flex-direction: column;
   align-items: stretch;
   min-height: 0;
@@ -2421,7 +2425,7 @@
   width: 100%;
   height: 100%;
   animation: brand-char-alive 6.8s ease-in-out infinite;
-  transform-origin: center 88%;
+  transform-origin: center bottom;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2436,26 +2440,17 @@
     transform: translate3d(0, 0, 0);
   }
 
-  22% {
-    transform: translate3d(0.55%, -4px, 0);
-  }
-
   50% {
-    transform: translate3d(0, -8px, 0);
-  }
-
-  78% {
-    transform: translate3d(-0.55%, -4px, 0);
+    transform: scale(1.02);
   }
 }
 
 .card--brand__frames {
   position: relative;
-  flex: 1;
+  flex: 1 1 auto;
   align-self: stretch;
   width: 100%;
   min-height: 0;
-  height: 100%;
 }
 
 .card--brand__frame-img {
@@ -2480,9 +2475,9 @@
   width: 100%;
   height: 100%;
   max-height: 100%;
-  object-fit: cover;
-  object-position: center center;
-  padding: 0.2rem 0.35rem;
+  object-fit: contain;
+  object-position: center bottom;
+  padding: 0;
   box-sizing: border-box;
   transition: transform 0.45s var(--ease-out);
 }
@@ -2492,7 +2487,7 @@
   flex: 1;
   min-height: 0;
   align-self: stretch;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .card--brand:hover .card--brand__img,
@@ -2521,10 +2516,11 @@
 
   .card--brand__media {
     width: min(44%, 300px);
+    max-width: min(44%, 300px);
     max-height: none;
-    aspect-ratio: auto;
+    aspect-ratio: unset;
     flex: 0 0 min(44%, 300px);
-    min-height: 100%;
+    min-height: 0;
     align-self: stretch;
     border-bottom: none;
     border-right: 1px solid var(--line);
