@@ -738,9 +738,9 @@ function App() {
               <img
                 className="hero__lockup"
                 src={site.brand.logoLockup}
-                alt=""
-                width={3000}
-                height={1987}
+                alt={`${site.nameEn} — ${site.brand.sloganEn}`}
+                width={1024}
+                height={370}
                 decoding="async"
               />
               <p className="hero__slogan" lang="en">
