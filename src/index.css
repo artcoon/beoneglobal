@@ -40,7 +40,7 @@
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   /** 프리미엄 섹션·리빌 — 더 긴 감속 */
   --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
-  --header-h: 12rem;
+  --header-h: 4.8rem;
   /** 레이아웃 · 타이포 리듬 (에디토리얼 마케팅 톤) */
   --content-max: 72rem;
   --section-y: clamp(3.75rem, 9vw, 6.75rem);
