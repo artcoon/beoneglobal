@@ -63,7 +63,7 @@
   align-items: center;
   gap: 0;
   min-width: 0;
-  max-width: min(10.5rem, 40vw);
+  max-width: min(11.5rem, 42vw);
   text-decoration: none;
   color: inherit;
 }
@@ -610,8 +610,7 @@
   max-width: 100%;
   height: auto;
   margin: 0 0 0.55rem;
-  aspect-ratio: 956 / 302;
-  background: transparent;
+  aspect-ratio: 1024 / 370;
   object-fit: contain;
   object-position: left top;
 }
