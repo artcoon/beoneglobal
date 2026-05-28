@@ -10,8 +10,8 @@ export const site = {
   /** 2025 BEONE GLOBAL 브랜드 가이드라인 — 공식 락업·웹용 로고 */
   brand: {
     sloganEn: 'Co-Creating Value as One',
-    logoNav: '/assets/brand/Beone_Global_Web_Logo_01.png?v=2',
-    logoLockup: '/assets/brand/Beone_Global_Web_Logo_01.png?v=2',
+    logoNav: '/assets/brand/logo-nav.png',
+    logoLockup: '/assets/brand/logo-lockup.png',
   },
 
   /**
