@@ -2686,10 +2686,6 @@
   object-position: center;
 }
 
-.product-card__media--cover img {
-  object-fit: cover;
-}
-
 .product-card__media[style*='--product-image-display-scale'] img {
   transform: scale(var(--product-image-display-scale));
   transform-origin: center center;

@@ -1036,10 +1036,7 @@ function App() {
               {site.products.featured.map((p) => (
                 <article key={p.shopHref} className="product-card">
                   <div
-                    className={
-                      'product-card__media' +
-                      ('imageFit' in p && p.imageFit === 'cover' ? ' product-card__media--cover' : '')
-                    }
+                    className="product-card__media"
                     style={
                       'imageDisplayScale' in p && typeof p.imageDisplayScale === 'number'
                         ? ({

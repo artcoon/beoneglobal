@@ -560,7 +560,6 @@ export const site = {
         name: '슬림핫패치',
         goodsNo: '1000000023',
         image: '/assets/products/goods-1000000023.png',
-        imageFit: 'cover' as const,
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000023',
         blurb:
           '바디라인 부위 온열 컨디셔닝을 지향하는 화장품 패치로, B2B 자료에서 특허·이중 온열·카페인 등 설계 방향이 설명됩니다. 체중·지방 관련 의학적 효능은 표방하지 않습니다.',
@@ -593,7 +592,6 @@ export const site = {
         name: '에너이자패치',
         goodsNo: '1000000013',
         image: '/assets/products/goods-1000000013.png',
-        imageFit: 'cover' as const,
         shopHref: 'https://www.kbeone.co.kr/goods/goods_view.php?goodsNo=1000000013',
         blurb:
           '훼뉴그릭(호로파)·넷틀(쐐기풀)·NO·멘톨 등 활력 허브 컨디셔닝을 지향하는 화장품 패치로 B2B 자료에 기술되어 있습니다.',
