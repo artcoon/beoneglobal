@@ -1408,9 +1408,8 @@
 }
 
 /**
- * #history: dark grey-green shell (다크회색그린) + carbon-weave tile (`/images/history-pattern.png`).
- * Asset is a single 243×256 repeat cell (cropped from the 4×4 source so `repeat` does not echo grid seams).
- * Base colour under bitmap; `::before` scrim keeps timeline labels and white cards readable.
+ * #history: dark grey-green shell (다크회색그린) + woven texture tile (`/images/history-pattern.png`, 1024×770).
+ * `repeat` at intrinsic tile size; `::before` scrim keeps timeline labels and white cards readable.
  * Shell tokens: `--section-dark-shell-*` in `index.css`.
  */
 #history.section--history {
@@ -1421,8 +1420,7 @@
   background-color: var(--section-dark-shell-bg);
   background-image: url('/images/history-pattern.png');
   background-repeat: repeat;
-  /* 2× intrinsic tile (243×256) — exact multiple keeps repeat phase-aligned */
-  background-size: 486px 512px;
+  background-size: 1024px 770px;
 }
 
 #history.section--history::before {
