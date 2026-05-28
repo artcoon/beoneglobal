@@ -1212,7 +1212,7 @@ function App() {
         <div className="footer__inner">
           <img
             className="footer__logo"
-            src={site.brand.logoLockup}
+            src={site.brand.logoFooter}
             alt={site.nameEn}
             width={240}
             height={62}
