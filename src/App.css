@@ -2402,6 +2402,7 @@
 }
 
 .card--brand__media {
+  --brand-char-media-bg: color-mix(in srgb, var(--surface-2) 88%, var(--accent) 6%);
   flex-shrink: 0;
   position: relative;
   display: flex;
@@ -2411,7 +2412,7 @@
   width: 100%;
   aspect-ratio: 4 / 5;
   max-height: min(52vh, 360px);
-  background: color-mix(in srgb, var(--surface-2) 88%, var(--accent) 6%);
+  background: var(--brand-char-media-bg);
   border-bottom: 1px solid var(--line);
   border-radius: calc(var(--radius-lg) - 1px) calc(var(--radius-lg) - 1px) 0 0;
   overflow: hidden;
@@ -2451,6 +2452,7 @@
   align-self: stretch;
   width: 100%;
   min-height: 0;
+  background: var(--brand-char-media-bg);
 }
 
 .card--brand__frame-img {
@@ -2475,10 +2477,11 @@
   width: 100%;
   height: 100%;
   max-height: 100%;
-  object-fit: contain;
-  object-position: center bottom;
+  object-fit: cover;
+  object-position: center 92%;
   padding: 0;
   box-sizing: border-box;
+  background: var(--brand-char-media-bg);
   transition: transform 0.45s var(--ease-out);
 }
 
@@ -2487,7 +2490,7 @@
   flex: 1;
   min-height: 0;
   align-self: stretch;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card--brand:hover .card--brand__img,
@@ -2509,22 +2512,29 @@
 
 @media (min-width: 720px) {
   .card--brand__layout {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: min(44%, 300px) 1fr;
+    grid-template-rows: minmax(0, 1fr);
     align-items: stretch;
     min-height: 0;
   }
 
   .card--brand__media {
-    width: min(44%, 300px);
-    max-width: min(44%, 300px);
+    width: 100%;
+    max-width: none;
     max-height: none;
-    aspect-ratio: unset;
-    flex: 0 0 min(44%, 300px);
-    min-height: 0;
+    height: 100%;
+    min-height: 100%;
+    aspect-ratio: auto;
+    flex: none;
     align-self: stretch;
     border-bottom: none;
     border-right: 1px solid var(--line);
     border-radius: calc(var(--radius-lg) - 1px) 0 0 calc(var(--radius-lg) - 1px);
+  }
+
+  .card--brand__body {
+    min-width: 0;
   }
 }
 
