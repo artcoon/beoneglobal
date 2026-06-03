@@ -32,6 +32,12 @@
 | `src/seo/structuredData.ts` | JSON-LD(Organization, WebSite) — `siteContent`와 연동 |
 | `public/robots.txt`, `public/sitemap.xml` | 크롤 허용·사이트맵 URL |
 
+## 네이버 서치어드바이저 글자 수
+
+- **페이지 제목·OG 제목**: **40자 이내** (유니코드 기준). `src/seo/seoConfig.ts`의 `title`과 `index.html`의 `<title>`·`og:title`·`twitter:title`을 함께 맞춥니다.
+- **설명·OG 설명**: **80자 이내**. `description`과 `meta description`·`og:description`·`twitter:description`을 함께 맞춥니다.
+- `robots.txt`는 **맨 위 주석 없이** 단순 규칙만 두는 편이 안전합니다. 네이버 크롤러(`Yeti`)용 `User-agent: Yeti` 블록을 포함할 수 있습니다.
+
 ## 4) `meta keywords`와 “해시태그”
 
 - **구글**은 오래전부터 `meta keywords`를 **순위에 거의 사용하지 않습니다.**

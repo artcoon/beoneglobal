@@ -1,5 +1,7 @@
-# https://beone.you — BEONE GLOBAL / 비원글로벌
 User-agent: *
+Allow: /
+
+User-agent: Yeti
 Allow: /
 
 Sitemap: https://beone.you/sitemap.xml

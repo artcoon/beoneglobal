@@ -5,12 +5,16 @@
 
 export const SEO = {
   origin: 'https://beone.you',
-  /** 검색 결과 제목(약 55자 내외 권장) */
-  title:
-    '비원글로벌 BEONE GLOBAL | k.BEONE·바이오힐링 기능성패치·OEM·ODM',
-  /** 메타 설명(약 150~160자). 키워드 나열이 아니라 자연스러운 문장 유지 */
+  /**
+   * 검색·OG·트위터 카드 제목 — 네이버 서치어드바이저 권장 **40자 이내**
+   * (유니코드 기준 길이; `node -e "console.log([...'…'].length)"` 로 확인)
+   */
+  title: '비원글로벌 | BEONE GLOBAL',
+  /**
+   * 메타 설명 — 네이버 권장 **80자 이내**. 구글은 더 긴 설명도 허용하나 여기서 통일.
+   */
   description:
-    '비원글로벌(BEONE GLOBAL) 공식 — k.BEONE·바이오힐링패치 등 피부 부착형 기능성 패치, 산화질소(NO) 축 제품, TPE GEL 특허 점착, 25년 제조·약국·하나로마트 등 유통망, OEM·ODM. 글로벌 헬스케어 브랜드.',
+    '비원글로벌(BEONE GLOBAL) 공식. k.BEONE·기능성 패치·바이오힐링·OEM·ODM·약국·하나로마트 유통.',
   /** meta keywords — 구글은 순위에 거의 사용하지 않으나, 네이버 등 일부 크롤러 참고용으로 과도하지 않게 정리 */
   keywords: [
     '비원글로벌',
