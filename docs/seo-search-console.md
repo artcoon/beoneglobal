@@ -44,12 +44,12 @@
 - SNS의 `#해시태그`와 HTML 메타는 별개입니다. 본 사이트는 **공식 랜딩** 성격이라, 과도한 해시태그 삽입은 오히려 가독성을 해칠 수 있어 **메타·구조화 데이터·본문 품질**로 정리했습니다.
 - **키워드 선점**은 같은 단어를 반복해서 넣는 방식이 아니라, **명확한 제목·설명·실제 콘텐츠·외부 신뢰 링크**가 맞습니다.
 
-## 5) `www`만 쓰는 경우
+## 5) `beone.you` + `www.beone.you` 둘 다 쓰는 경우
 
-Amplify에서 `https://www.beone.you` 로만 노출한다면:
-
-- `src/seo/seoConfig.ts` 의 `origin`을 `https://www.beone.you` 로 바꾸고,
-- `index.html`의 `canonical`·`og:url`·`sitemap.xml`·`robots.txt`의 URL도 동일하게 맞춥니다.
+- **사용자 접속**: Amplify에서 루트·`www` 둘 다 같은 앱으로 연결해 두는 것이 일반적입니다.
+- **검색 신호 정리**: `canonical`·`og:url`·JSON-LD의 기본 URL은 **`https://beone.you/` 한 곳**으로 두고, **`public/sitemap.xml`** 에는 `https://beone.you/` 와 `https://www.beone.you/` 를 **둘 다** 넣어 두었습니다(발견용).
+- **서치 콘솔·서치어드바이저**: 필요하면 **URL 접두어 속성을 두 개** 등록합니다(`https://beone.you/` 와 `https://www.beone.you/`).
+- **중복 완화(선택·권장)**: 한쪽으로만 검색 신호를 모으려면 Amplify **도메인 리디렉션**(예: `www` → 루트 또는 그 반대)을 켜고, 그때는 **사이트맵·canonical을 그 한 주소**에만 맞추는 편이 안전합니다.
 
 ## 6) Amplify 환경 변수
 

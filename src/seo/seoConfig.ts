@@ -4,7 +4,10 @@
  */
 
 export const SEO = {
+  /** 표준(canonical·og:url·JSON-LD 기본) — 루트 도메인 */
   origin: 'https://beone.you',
+  /** 동일 사이트 www 호스트 — 사이트맵·문서에 병기 */
+  originWWW: 'https://www.beone.you',
   /**
    * 검색·OG·트위터 카드 제목 — 네이버 서치어드바이저 권장 **40자 이내**
    * (유니코드 기준 길이; `node -e "console.log([...'…'].length)"` 로 확인)
@@ -53,4 +56,9 @@ export const SEO = {
 export function absoluteUrl(path: string): string {
   const p = path.startsWith('/') ? path : `/${path}`
   return `${SEO.origin}${p}`
+}
+
+/** 사이트맵 등에 넣는 공개 URL(루트 + www) */
+export function publicSiteOrigins(): readonly [string, string] {
+  return [SEO.origin, SEO.originWWW] as const
 }
