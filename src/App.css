@@ -503,7 +503,8 @@
   inset: 0;
   min-width: 100%;
   min-height: 100%;
-  filter: brightness(0.62);
+  /* 배경 사진만 살짝 밝게(히어로 카피·카드 스타일은 그대로) */
+  filter: brightness(0.82);
   transform: scale(1.05);
   transform-origin: center center;
 }
@@ -527,11 +528,12 @@
   position: absolute;
   inset: 0;
   z-index: 1;
+  /* 스크림만 약간 옅게 — 위 레이어(카드)는 변경 없음 */
   background: linear-gradient(
     165deg,
-    rgba(1, 14, 12, 0.5) 0%,
-    rgba(2, 22, 20, 0.68) 45%,
-    rgba(1, 10, 9, 0.82) 100%
+    rgba(1, 14, 12, 0.32) 0%,
+    rgba(2, 22, 20, 0.46) 45%,
+    rgba(1, 10, 9, 0.58) 100%
   );
   pointer-events: none;
 }
@@ -1015,11 +1017,12 @@
   z-index: 0;
   border-radius: inherit;
   pointer-events: none;
+  /* 사진·그리드 워터마크를 한 단계 더 옅게(전경 타이포 대비 유지) */
   background: linear-gradient(
     165deg,
-    rgba(255, 255, 255, 0.82) 0%,
-    rgba(248, 252, 250, 0.78) 38%,
-    rgba(10, 42, 38, 0.28) 100%
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(252, 253, 252, 0.86) 40%,
+    rgba(236, 248, 244, 0.68) 100%
   );
 }
 
@@ -1650,33 +1653,12 @@
   overflow: hidden;
   transform: scale(1.02) translate3d(-1%, -0.6%, 0);
   transform-origin: center center;
-  background-color: var(--surface);
-  background-image:
-    radial-gradient(ellipse 85% 70% at 72% 28%, rgba(45, 212, 191, 0.18), transparent 55%),
-    linear-gradient(
-      138deg,
-      color-mix(in srgb, color-mix(in srgb, var(--accent) 16%, var(--surface)) 52%, transparent) 0%,
-      color-mix(in srgb, var(--surface) 28%, transparent) 42%,
-      color-mix(in srgb, color-mix(in srgb, var(--accent) 10%, #021a18) 42%, transparent) 100%
-    ),
-    repeating-linear-gradient(
-      -24deg,
-      transparent,
-      transparent 10px,
-      color-mix(in srgb, var(--accent) 5%, transparent) 10px,
-      color-mix(in srgb, var(--accent) 5%, transparent) 11px
-    ),
-    var(--ed-overview-2, none),
-    var(--ed-overview-1, none);
-  background-repeat: no-repeat;
-  /* 그라데이션·텍스처는 전면 면적; 사인(4번째)은 베이스(5번째) 위·너비 살짝 제한해 가장자리에서 베이스가 비침 */
-  background-position: center, center, center, center 36%, center;
-  background-size:
-    100% 100%,
-    100% 100%,
-    100% 100%,
-    min(108%, 34rem) auto,
-    cover;
+  background-color: #eef2f3;
+  /* 원본 사진 색·선명도 — 위에 얹던 틸 그라데이션·망점 레이어 제거 */
+  background-image: var(--ed-overview-2, none), var(--ed-overview-1, none);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, cover;
 }
 
 /* Philosophy: no wide photo on the section root — only `.philosophy-hero-band` stacks scrims + `--ed-philosophy-hero-band` (avoid sharing one var with the whole section). */
