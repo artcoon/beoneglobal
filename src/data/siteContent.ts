@@ -4,6 +4,9 @@
  */
 
 export const site = {
+  /** 공식 웹 주소 — DNS·메타·배포 문서와 맞춥니다 (Porkbun: beone.you). */
+  publicSiteUrl: 'https://beone.you',
+
   nameKo: '비원글로벌',
   nameEn: 'BEONE GLOBAL',
 

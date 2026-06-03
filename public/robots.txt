@@ -1,0 +1,5 @@
+# https://beone.you — BEONE GLOBAL / 비원글로벌
+User-agent: *
+Allow: /
+
+Sitemap: https://beone.you/sitemap.xml

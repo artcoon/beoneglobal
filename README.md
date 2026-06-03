@@ -30,6 +30,11 @@ npm run dev
 - **레이아웃·스타일**: [`src/App.tsx`](src/App.tsx), [`src/App.css`](src/App.css), [`src/index.css`](src/index.css)
 - **정적 이미지**: [`public/assets/`](public/assets/) (브랜드 PNG 등 + 제품은 [`public/assets/products/`](public/assets/products/)에 `goods-{상품코드}`로 K비원몰 대표 컷과 1:1 매칭)
 
+## 검색엔진(SEO)
+
+- 메타·구조화 데이터·`robots.txt`·`sitemap.xml` 요약: [`docs/seo-search-console.md`](docs/seo-search-console.md)
+- 제목·설명·키워드 단일 출처: [`src/seo/seoConfig.ts`](src/seo/seoConfig.ts) — `index.html` 메타와 문구를 맞출 때 함께 수정하세요.
+
 ## 반드시 확인할 것
 
 - **연락처·사업자 정보**: `siteContent.ts`의 `contact`는 플레이스홀더입니다. 공개 전 실제 이메일·전화·주소로 바꾸세요.
